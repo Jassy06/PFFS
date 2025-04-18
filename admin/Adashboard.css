@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background: #f4f4f4;
+    padding: 20px;
+    height: 100vh;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+.sidebar ul li a.active {
+    color: blue;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.categories button {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.categories button.active {
+    background: black;
+    color: white;
+}
+
+.sort-dropdown {
+    margin: 20px;
+    display: inline-block;
+}
+
+#sort {
+    padding: 5px;
+}
+
+canvas {
+    max-width: 80%;
+    margin: auto;
+}
+.container {
+    display: flex;
+    justify-content: space-between; /* Pushes items to the edges */
+    align-items: flex-start; /* Aligns items to the top */
+    width: 100%; /* Ensures full width */
+    padding: 20px;
+}
+
+/* Button styling */
+.button-container {
+    display: flex;
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 10px; /* Space between buttons */
+}
+
+.button {
+    width: 200px; /* Set button width */
+    padding: 10px;
+    border: 2px solid black;
+    background: white;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+}
+
+.button.active {
+    background: black;
+    color: white;
+}
+
+/* Sort dropdown styling */
+.sort-container {
+    display: flex;
+    flex-direction: column; /* Stack sort label & dropdown */
+    align-items: flex-end;
+}
+
+.sort-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+select {
+    width: 120px;
+    padding: 8px;
+    font-weight: bold;
+    border: 2px solid black;
+}

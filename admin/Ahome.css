@@ -1,0 +1,89 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #002f6c;
+    padding: 20px;
+    height: 95vh;
+    color:white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar ul li a.active {
+    color: rgb(255, 255, 255);
+}
+/* Make the logo bigger */
+.logo {
+    width: 1000px; /* Adjust size as needed */
+    display: block;
+    margin: 50px auto; /* Centers the logo */
+
+}
+
+/* Style the welcome text */
+.welcome-text {
+    font-size: 40px; /* Make text bigger */
+    font-weight: 700; /* Bold text */
+    text-align: center;
+    font-family: 'Poppins', sans-serif; /* Aesthetic font */
+    text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Adds shadow */
+    color: #333; /* Dark grey color */
+}
+body {
+    background-image: url('Ahome.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh; /* Ensure full height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.Ahome{
+    background-image: url('Ahome.png');
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Pushes items apart */
+    height: 100vh; /* Full height */
+    padding: 20px;
+}
+
+.menu {
+    flex-grow: 1; /* Ensures other items take up space */
+}
+
+.logout {
+    margin-top: auto; /* Pushes it to the bottom */
+    color: white;
+    font-weight: bold;
+}
+
+
+
+#logout {
+    margin-top: auto; /* Pushes it to the bottom */
+    color: white;
+    font-weight: bold;
+}

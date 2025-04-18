@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="Adashboard.css">
+    <script src="Adocument.js"></script>
+</head>
+<body>
+    <div class="sidebar">
+        <ul>
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">DOCUMENT</a></li>
+            <li><a href="#" class="active">DASHBOARD</a></li>
+            <li><a href="#" id="logout">LOG OUT</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="categories">
+            <button class="active">SCHOOL ENVIRONMENT</button>
+            <button>SERVICES</button>
+            <button>OTHER FACTOR</button>
+        </div>
+        <div class="sort-container">
+            <label for="sort">SORT</label>
+            <select id="sort">
+                <option value="weekly">Weekly</option>
+                <option value="monthly">Monthly</option>
+                <option value="yearly">Yearly</option>
+            </select>
+        </div>
+        <canvas id="feedbackChart"></canvas>
+    </div>
+    <script src="Adashboard.js"></script>
+</body>
+</html>

@@ -1,0 +1,105 @@
+body {
+    display: flex;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #002f6c;
+    padding: 20px;
+    height: 100vh;
+    color: white;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 15px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar ul li a.active {
+    color: blue;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+    
+}
+
+#search {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid rgb(255, 255, 255);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+body {
+    background-image: url('../images/Adocument.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire screen */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent repeating */
+    height: 100vh; /* Ensure full height */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.Adocument{
+    background-image: url('../images/Adocument.png');
+}
+caption {
+    font-size: 22px; /* Adjust size as needed */
+    font-weight: bold;
+    text-transform: uppercase; /* Makes it all caps */
+    padding: 10px 0; /* Adds spacing */
+    text-align: center;
+}
+.submitted-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Adds spacing between title and search box */
+}
+.logout {
+    margin-top: auto; /* Pushes it to the bottom */
+    color: red;
+    font-weight: bold;
+}
+
+
+#save {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
